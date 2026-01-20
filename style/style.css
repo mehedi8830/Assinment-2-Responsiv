@@ -42,6 +42,11 @@ body{
     font-weight: 600;
     font-size: 18px;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 #btn:hover{
     color: #4dcd2a;
@@ -130,6 +135,11 @@ body{
     background: transparent;
     border: 2px solid #00ff9e;
     color: #00ff9e;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 
 
@@ -284,7 +294,7 @@ body{
     max-width: 1200px;
     height: 58px;
     font-size: 48px;
-    font-weight: 700;   
+    font-weight: 700;
 }
 .video{
     display: flex;
@@ -337,6 +347,11 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 20px;
+    margin-top: 50px;
+
+
 }
 .alex{
     font-size: 32px;
@@ -359,6 +374,48 @@ body{
     padding: 20px;
     gap: 30px;
 }
+
+
+/* Footer */
+.footer{
+    /* max-width: 1600px; */
+    height: 412px;
+    background-image: url(../Icon/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 30px;
+    border: 2px solid rgba(37, 13, 68, 1);
+    background-color: rgba(37, 13, 68, 1);
+}
+
+.techwave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px; 
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 20px;
+}
+.twitter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.all-rights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 
 
 
