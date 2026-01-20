@@ -84,14 +84,12 @@ body{
 
 
 /* Bannar Section */
-.bannar-section{  
-    /* max-width: 1600px; */
+.bannar-section{
     height: 760px;
     background-image: url("../Icon/hero-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-
+    background-position: center;  
 }
 .tec{
     font-size: 60px;
@@ -175,14 +173,12 @@ body{
 
 
 /* About Section */
-.about-section{  
-    max-width: 1600px;
+.about-section{
     height: 700px;
     padding: 50px 200px;
 }
 
-.about-sec{  
-    max-width: 1500px;
+.about-sec{
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -475,7 +471,7 @@ body{
         box-shadow: 0 0 20px rgba(255, 100, 200, 0.6);
     }
     .new{
-        left: 300px;
+        left: 250px;
     }
 
 
