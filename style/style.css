@@ -21,7 +21,7 @@ body{
 .navigation{   
     padding: 15px 150px;
     display: flex;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +85,7 @@ body{
 
 /* Bannar Section */
 .bannar-section{  
-    max-width: 1600px;
+    /* max-width: 1600px; */
     height: 760px;
     background-image: url("../Icon/hero-bg.png");
     background-repeat: no-repeat;
